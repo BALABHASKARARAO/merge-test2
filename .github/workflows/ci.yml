@@ -13,7 +13,7 @@ jobs:
         #uses: Goobles/gh-actions-merge-command@v1
         with:
           allow_ff: false
-          command: test
+          #command: test
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           #command: test
