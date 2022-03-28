@@ -9,11 +9,11 @@ jobs:
         uses: actions/checkout@v1
       - name: Check for Command
         id: command
-        #uses: xt0rted/slash-command-action@v1
-        uses: Goobles/gh-actions-merge-command@v1
+        uses: BALABHASKARARAO/gh-actions-merge-command@v1
+        #uses: Goobles/gh-actions-merge-command@v1
         with:
           allow_ff: false
-          command: test
+          #command: test
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           #command: test
